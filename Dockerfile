@@ -1,4 +1,4 @@
-FROM maven:3.8.7-openjdk-18-slim
+FROM maven:3.9.9-eclipse-temurin-17-alpine
 RUN mkdir /usr/src/project
 COPY . /usr/src/project
 WORKDIR /usr/src/project
