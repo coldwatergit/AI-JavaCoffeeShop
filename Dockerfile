@@ -1,4 +1,4 @@
-FROM maven:3.9.9-eclipse-temurin-17-alpine
+FROM maven:3.9.12-eclipse-temurin-17-alpine
 RUN mkdir /usr/src/project
 COPY . /usr/src/project
 WORKDIR /usr/src/project
